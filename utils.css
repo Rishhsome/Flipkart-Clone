@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap");
+
+@keyframes slide1 {
+  0% {
+    transform: translate(0vw);
+  }
+  100% {
+    transform: translate(100vw);
+  }
+}
+
+@keyframes slide2 {
+  0% {
+    transform: translate(-200vw);
+  }
+  100% {
+    transform: translate(-99.5vw);
+  }
+}
+
+.flex-all-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-all-center p {
+  margin: 45px;
+}
+
+.search-box {
+  position: relative;
+  height: 35px;
+  width: 550px;
+  padding: 12px;
+  bottom: 12px;
+  left: 3px;
+}
+
+.search-button {
+  position: relative;
+  height: 18px;
+  width: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  right: 8px;
+  bottom: 4px;
+}
+
+.search-bar {
+  position: relative;
+  height: 35px;
+  max-width: 700px;
+  background: white;
+  right: 96px;
+}
+
+.search-bar input {
+  background: transparent;
+  outline: none;
+  border: 0;
+}
+
+.FlipKart {
+  position: relative;
+  bottom: 3px;
+  right: 52px;
+}
+
+.join {
+  position: relative;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  top: 10px;
+  right: 129px;
+}
+
+.join:hover {
+  text-decoration: underline white;
+}
+
+.plus {
+  color: #ffe500;
+}
+
+.plus-img {
+  position: relative;
+  left: 2px;
+}
+
+.Acc {
+  position: relative;
+  right: 26px;
+}
+
+.become-seller {
+  position: relative;
+  right: -17px;
+}
+
+.care {
+  position: relative;
+  left: 59px;
+}
+
+.cart {
+  position: relative;
+  left: 101.5px;
+  bottom: 2px;
+}
+
+.cart-pic {
+  position: relative;
+  top: 5px;
+}
+
+.below-header {
+  background: transparent;
+  position: relative;
+  top: 69px;
+  max-width: 53%;
+  max-height: 53%;
+  margin: 0 2px;
+}
+
+.content1 {
+  min-height: calc(238vh - 55px - 12vh);
+  background: white;
+  color: #878787;
+  font-size: 11px;
+  font-family: "IBM Plex Serif", serif;
+}
+
+.info {
+  margin: 0 20px;
+}
+
+.heading {
+  color: #666;
+  font-size: 13px;
+  margin: 12px 0;
+}
+
+.offers {
+  position: relative;
+  font-family: "IBM Plex Serif", serif;
+  right: 28px;
+}
+
+.heading-1 {
+  color: rgb(101, 99, 99);
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+
+.above-footer {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  height: 37vh;
+  background: #172337;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0;
+}
+
+.above-footer-1 {
+  font-family: "IBM Plex Serif", serif;
+  position: relative;
+  top: 22px;
+  left: 40px;
+}
+
+.above-footer-2 {
+  font-family: "IBM Plex Serif", serif;
+  position: relative;
+  top: 22px;
+  left: 100px;
+}
+
+.above-footer-3 {
+  font-family: "IBM Plex Serif", serif;
+  position: relative;
+  top: 22px;
+  left: 158px;
+}
+
+.above-footer-4 {
+  font-family: "IBM Plex Serif", serif;
+  position: relative;
+  top: 22px;
+  left: 235px;
+}
+
+.above-footer-5 {
+  font-family: "IBM Plex Serif", serif;
+  position: relative;
+  top: 22px;
+  left: 340px;
+}
+
+.above-footer-6 {
+  font-family: "IBM Plex Serif", serif;
+  position: relative;
+  top: 22px;
+  left: 350px;
+}
+
+.vl {
+  position: relative;
+  border-left: 0.1px solid white;
+  height: 150px;
+  left: 340px;
+  top: 46px;
+}
+
+.title {
+  font-family: "IBM Plex Serif", serif;
+  color: #878787;
+  margin-left: 24px;
+}
+
+.title-1 {
+  font-family: "IBM Plex Serif", serif;
+  position: relative;
+  color: #878787;
+  left: 19px;
+}
+
+.AF-Links {
+  text-decoration: none;
+  color: white;
+}
+
+.AF-Links:hover {
+  text-decoration: underline white;
+}
+
+.call {
+  text-decoration: none;
+}
+
+.figs_1 {
+  position: relative;
+  left: 9.5px;
+  top: 64px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.026em;
+}
+
+.figs_2 {
+  position: relative;
+  left: 11px;
+  top: 64px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.026em;
+}
+
+.figs_3 {
+  position: relative;
+  left: 21px;
+  top: 64px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.026em;
+}
+
+.figs_4 {
+  position: relative;
+  left: 1.5px;
+  top: 64px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.026em;
+}
+
+.figs_5 {
+  position: relative;
+  left: 19px;
+  top: 64px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.026em;
+}
+
+.figs_6 {
+  position: relative;
+  left: 12.5px;
+  top: 64px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.026em;
+}
+
+.figs_7 {
+  position: relative;
+  left: 23px;
+  top: 64px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.026em;
+}
+
+.figs_8 {
+  position: relative;
+  left: 7px;
+  top: 64px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.026em;
+}
+
+.figs_9 {
+  position: relative;
+  left: 16px;
+  top: 64px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.026em;
+}
+
+.figs_10 {
+  position: relative;
+  left: 23px;
+  top: 64px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.026em;
+}
+
+.fig-text:hover {
+  color: #196aec;
+}
+
+.hr-f {
+  height: 0.1px;
+  color: white;
+}
+
+.slider_1_img {
+  transform: translate(0vw);
+  height: 280px;
+  min-width: 99vw;
+  margin: 5px;
+  animation: slide1 0.5s 4s 1 forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.slider_2_img {
+  transform: translate(-200vw);
+  height: 280px;
+  min-width: 99vw;
+  margin: 3px;
+  animation: slide2 0.5s 4s 1 forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.btn1 {
+  position: absolute;
+  border: none;
+  outline: none;
+  background: white;
+  color: black;
+  font-size: 80px;
+  margin-left: 5px;
+  margin-top: 91px;
+  border: 1px solid rgb(192, 189, 189);
+  border-radius: 4px;
+}
+
+.btn2 {
+  position: absolute;
+  border: none;
+  outline: none;
+  background: white;
+  color: black;
+  font-size: 80px;
+  margin-left: 1485px;
+  margin-top: 91px;
+  border: 1px solid rgb(192, 189, 189);
+  border-radius: 4px;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: white;
+}
